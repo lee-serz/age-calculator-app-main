@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="calculator">
+        <div class="calculator__input">
+          <div class="input_item">
+            <div class="input__title">DAY</div>
+            <input type="text" class="day">
+          </div>
+          <div class="input__item">
+            <div class="input__title">MONTH</div>
+            <input type="text" class="month">
+          </div>
+          <div class="input__item">
+            <div class="input__title">YEAR</div>
+            <input type="text" class="year">
+          </div>
+        </div>
+
+        <div class="calculator__button">
+          <button id="calc"><img src="./assets/images/icon-arrow.svg" alt=""></button>
+        </div>
+
+        <div class="calculator__output">
+          <div class="output__item">
+            <div class="output__year"><span id="year">--</span>years</div>
+          </div>
+          <div class="output__item">
+            <div class="output__month"><span id="month">--</span>months</div>
+          </div>
+          <div class="output__item">
+            <div class="output__day"><span id="day">--</span>days</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. <br>Coded by <a target="_blank" href="https://vk.com/skyw1ng">Lee Sergey</a>.
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
