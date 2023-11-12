@@ -145,7 +145,7 @@ body {
     }
 
     .calculator__button button { 
-        margin: 0px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
     }
     
     .output__item { 
