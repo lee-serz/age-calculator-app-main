@@ -63,7 +63,7 @@ body {
     font-family: var(--ff);
     color: var(--white-400);
 }
-
+/* fix */
 .day, .month, .year{ 
     text-align: center;
     padding: 5px 10px;
